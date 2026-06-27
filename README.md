@@ -56,3 +56,4 @@ http://localhost:8501
 O script carrega os dados históricos em cache, trata valores nulos (utilizando a mediana para idades ausentes, evitando distorções de outliers), padroniza as escalas matemáticas numéricas e treina o algoritmo nos bastidores. Ao interagir com a interface web, os novos dados inseridos pelo usuário são normalizados e injetados no modelo, que devolve o cálculo probabilístico instantaneamente.
 
 !(titanic-analise/img-titanic-analise.png)
+![Texto Alternativo](img-titanic-analise.png)
