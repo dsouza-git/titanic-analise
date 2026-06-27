@@ -55,4 +55,4 @@ http://localhost:8501
 🧠 Como o Modelo Funciona
 O script carrega os dados históricos em cache, trata valores nulos (utilizando a mediana para idades ausentes, evitando distorções de outliers), padroniza as escalas matemáticas numéricas e treina o algoritmo nos bastidores. Ao interagir com a interface web, os novos dados inseridos pelo usuário são normalizados e injetados no modelo, que devolve o cálculo probabilístico instantaneamente.
 
-!(/img-titanic-analise.png)
+!(titanic-analise/img-titanic-analise.png)
