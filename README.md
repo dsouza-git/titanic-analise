@@ -25,12 +25,14 @@ Abra o projeto no **VS Code**. Certifique-se de que o arquivo `app.py` está na 
 ### 2. Crie um Ambiente Virtual (Recomendado)
 Para evitar conflitos com outras bibliotecas instaladas na sua máquina, abra o terminal do VS Code (`Ctrl + '` ou `Terminal > New Terminal`) e crie um ambiente virtual isolado:
 
-#1. Crie o ambiente virtual do projeto
-No Windows:
+#1. Crie o ambiente virtual do projeto:
+
+*No Windows:
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
-No Linux/Mac:
+
+*No Linux/Mac:
 
 Bash
 python3 -m venv venv
@@ -41,13 +43,14 @@ Com o ambiente virtual ativado, instale as bibliotecas necessárias executando:
 
 Bash
 pip install streamlit pandas seaborn scikit-learn
-(Opcional: Você pode gerar um arquivo requirements.txt futuramente usando pip freeze > requirements.txt)
+
 
 #3. Execute a Aplicação
 No terminal, inicie o servidor local do Streamlit:
 
 Bash
 streamlit run app.py
+
 #4. Acesse o Dashboard
 O comando acima iniciará a aplicação e abrirá automaticamente o seu navegador padrão. Caso não abra sozinho, acesse o endereço fornecido no terminal, que geralmente é:
 http://localhost:8501
@@ -55,7 +58,4 @@ http://localhost:8501
 🧠 Como o Modelo Funciona
 O script carrega os dados históricos em cache, trata valores nulos (utilizando a mediana para idades ausentes, evitando distorções de outliers), padroniza as escalas matemáticas numéricas e treina o algoritmo nos bastidores. Ao interagir com a interface web, os novos dados inseridos pelo usuário são normalizados e injetados no modelo, que devolve o cálculo probabilístico instantaneamente.
 
-!(titanic-analise/img-titanic-analise.png)
-!(img-titanic-analise.png)
-![Texto Alternativo](./img-titanic-analise.png)
-![Texto Alternativo](titanic-analise/img-titanic-analise.png)
+
