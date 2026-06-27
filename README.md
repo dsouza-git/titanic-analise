@@ -57,3 +57,5 @@ O script carrega os dados históricos em cache, trata valores nulos (utilizando 
 
 !(titanic-analise/img-titanic-analise.png)
 !(img-titanic-analise.png)
+![Texto Alternativo](./img-titanic-analise.png)
+![Texto Alternativo](titanic-analise/img-titanic-analise.png)
