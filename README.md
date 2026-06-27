@@ -1,10 +1,6 @@
 # titanic-analise
-Estudo de analise de dados e aplicação de modelo de predição.
+##Estudo de analise de dados e aplicação de modelo de predição.
 
-#1. A Documentação (README.md)
-Crie um arquivo chamado README.md na mesma pasta do seu projeto. Esta versão foi reescrita utilizando boas práticas de documentação de desenvolvimento, focando em como configurar o ambiente de forma isolada (usando venv) e rodar a aplicação localmente.
-
-Markdown
 # 🚢 Preditor de Sobrevivência do Titanic
 
 Este é um projeto prático de Machine Learning e visualização de dados desenvolvido em Python. Ele utiliza um modelo de **Regressão Logística** para prever a probabilidade de sobrevivência de um passageiro do Titanic com base em características como idade, sexo, classe e valor da tarifa. 
@@ -29,6 +25,7 @@ Abra o projeto no **VS Code**. Certifique-se de que o arquivo `app.py` está na 
 ### 2. Crie um Ambiente Virtual (Recomendado)
 Para evitar conflitos com outras bibliotecas instaladas na sua máquina, abra o terminal do VS Code (`Ctrl + '` ou `Terminal > New Terminal`) e crie um ambiente virtual isolado:
 
+#1. Crie o ambiente virtual do projeto
 No Windows:
 ```bash
 python -m venv venv
@@ -38,6 +35,7 @@ No Linux/Mac:
 Bash
 python3 -m venv venv
 source venv/bin/activate
+
 #2. Instale as Dependências
 Com o ambiente virtual ativado, instale as bibliotecas necessárias executando:
 
